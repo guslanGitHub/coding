@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://www.biem.co/wp-content/uploads/2019/09/si-manis-jembatan-ancol-biemdotco.jpg");
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+header h5 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+header hr {
+  border: 2px solid darkorange;
+  width: 200px;
+  margin: auto;
+  border-radius: 2px;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card {
+  background-color: red;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card img {
+  width: 200px;
+  height: 230px;
+}
+.tombol a {
+  display: inline-block;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 50px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+}
+.tombol a:nth-child(2) {
+  background-color: lightblue;
+}
+.tombol a:nth-child(3){
+	background-color: darkorange;
+}
